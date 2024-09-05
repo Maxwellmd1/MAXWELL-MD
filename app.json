@@ -1,0 +1,18 @@
+{
+  "name": "𝑴𝑨𝑿𝑾𝑬𝑳𝑳-𝑴𝑫",
+  "description": "whatsapp bot by 𝑴𝑨𝑿𝑾𝑬𝑳𝑳⚡",
+  "repository": "https://github.com/Maxwellmd1",
+  "logo": "https://telegra.ph/file/f571254c2f1e320b697bb.jpg",
+  "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest"
+    },
+    {
+      "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest"
+    }
+  ]
+}
